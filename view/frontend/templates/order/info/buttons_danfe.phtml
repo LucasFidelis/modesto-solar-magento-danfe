@@ -1,0 +1,10 @@
+<?php
+
+/** @var ModestoSolar\DanfeLink\Block\Order\DanfeButton $block */
+if ($block->isEnabled()) : ?>
+    <div class="actions" style="text-align: right;">
+        <a href="<?= $block->escapeHtml($block->getDanfeLink()) ?>" target="_blank" rel="noopener">
+            <span><?= $block->escapeHtml(__('Print Danfe')) ?></span>
+        </a>
+    </div>
+<?php endif; ?>

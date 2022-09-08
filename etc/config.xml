@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <sales>
+            <danfe_button>
+                <active>0</active>
+                <danfe_url>http://192.168.0.116/Painel/nota/</danfe_url>
+            </danfe_button>
+        </sales>
+    </default>
+</config>

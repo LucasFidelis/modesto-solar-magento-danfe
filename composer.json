@@ -1,0 +1,20 @@
+{
+  "name": "modesto-solar/module-danfe-link",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ModestoSolar\\DanfeLink\\": ""
+    }
+  }
+}
